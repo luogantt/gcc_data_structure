@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "SqList.h"                                //**02 线性表**//
 
+
+//
 // 判断data>e是否成立
 Status CmpGreater(ElemType data, ElemType e) {
     return data > e ? TRUE : FALSE;
